@@ -11,11 +11,18 @@ Vicrab for Java is a collection of modules provided by Vicrab. At its core, Vicr
 Getting started with Vicrab is a three step process:
 
 1.  [Sign up for an account](https://www.vicrab.com/signup/)
-2.  [Install your SDK](#install)
-3.  [Configure it](#configure)
+2.  [Install your SDK](#Installation)
+3.  [Configure it](#Configuration)
 
+## Installation
 
-## Configuration {#config}
+-   [Android](./modules/android.md)
+-   [java.util.logging](./modules/jul.md)
+-   [Log4j 1.x](./modules/log4j.md)
+-   [Log4j 2.x](./modules/log4j2.md)
+-   [Logback](./modules/logback.md)
+
+## Configuration
 
 Use the configuration below in combination with any of the integrations from above. The configuration will only work after an integration is installed. After that, [set your DSN]{#setting-the-dsn}.
 
@@ -51,14 +58,7 @@ Vicrab.init("https://private_key@host:port/1");
 
 ### Configuration Methods
 
-There are multiple ways to configure the Java SDK, but all of them take the same options. See the [configuration methods documentation] for how to use each configuration method and how the option names might differ between them.
-
-## Next Steps
- 
--   [Context & Breadcrumbs]
--   [Manual Usage]
--   [Agent (Beta)]
--   [Migration from Raven Java]
+There are multiple ways to configure the Java SDK, but all of them take the same options. 
 
 ## Resources
 
