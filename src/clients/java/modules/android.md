@@ -19,7 +19,9 @@ The `AndroidEventBuilderHelper` is enabled by default, which will automatically 
 Using Gradle (Android Studio) in your `app/build.gradle` add:
 
 ```groovy
-compile 'com.vicrab:vicrab-android:1.1'
+implementation 'com.vicrab:vicrab-all:1.1'
+implementation 'com.vicrab:vicrab:1.1'
+implementation 'com.vicrab:vicrab-android:1.1'
 
 // this dependency is not required if you are already using your own
 // slf4j implementation
@@ -53,11 +55,31 @@ public class MainActivity extends Activity {
 
         // Use the Vicrab DSN (client key) from the Project Settings page on Vicrab
         String vicrabDsn = "https://secretKey@host:port/1?options";
-        Vicrab.init(vicrabDsn, new AndroidVicrabClientFactory(ctx));
-
+        try {
+            Vicrab.init(vicrabDsn, new AndroidVicrabClientFactory(ctx));
+        } catch (NoSuchMethodError e) {
+            e.printStackTrace();
+        } catch (IncompatibleClassChangeError error){
+            error.printStackTrace();
+        }catch(NoClassDefFoundError error) {
+            error.printStackTrace();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        
         // Alternatively, if you configured your DSN in a `vicrab.properties`
         // file (see the configuration documentation).
-        Vicrab.init(new AndroidVicrabClientFactory(ctx));
+        try {
+            Vicrab.init(new AndroidVicrabClientFactory(ctx));
+        } catch (NoSuchMethodError e) {
+            e.printStackTrace();
+        } catch (IncompatibleClassChangeError error){
+            error.printStackTrace();
+        }catch(NoClassDefFoundError error) {
+            error.printStackTrace();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 }
 ```
