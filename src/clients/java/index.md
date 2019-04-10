@@ -19,11 +19,11 @@ Getting started with Vicrab is a three step process:
 -   [Android](./modules/android.md)
 -   [java.util.logging](./modules/jul.md)
 -   [Log4j 1.x](./modules/log4j.md)
--   [Log4j 2.x](./modules/log4j2.md)
+-   [Log4j 2.x](./modules/log4j2.md)  [demo](../../../demo)
+
 -   [Logback](./modules/logback.md)
 
-## Configuration
-
+## Configuration 
 Use the configuration below in combination with any of the integrations from above. The configuration will only work after an integration is installed. After that, [set your DSN]{#setting-the-dsn}.
 
 ### Setting the DSN (Data Source Name) {#setting-the-dsn}
@@ -54,6 +54,7 @@ In code:
 import com.vicrab.Vicrab;
 
 Vicrab.init("https://private_key@host:port/1");
+
 ```
 
 ### Configuration Methods
