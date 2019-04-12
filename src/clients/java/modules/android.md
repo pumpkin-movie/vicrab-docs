@@ -80,6 +80,10 @@ public class MainActivity extends Activity {
         }catch (Exception e){
             e.printStackTrace();
         }
+	
+	
+        //Example of calling a unit test method
+        new MyClass().logWithStaticAPI();
     }
 }
 ```
@@ -119,14 +123,13 @@ public class MyClass {
 
         // Set the user in the current context.
         Vicrab.getContext().setUser(
-            new UserBuilder().setEmail("hello@vicrab.com").build()
+            new UserBuilder().setEmail("developer@vicrab.com").build()
         );
 
         /*
          This sends a simple event to Vicrab using the statically stored instance
          that was created in the ``main`` method.
          */
-        Vicrab.capture("This is a test");
 
         try {
             unsafeMethod();
