@@ -18,9 +18,8 @@ Getting started with Vicrab is a three step process:
 
 -   [Android](./modules/android.md)
 -   [java.util.logging](./modules/jul.md)
--   [Log4j 1.x](./modules/log4j.md)
+-   [Log4j 1.x](./modules/log4j.md) >> [demo](./modules/demo/vicrab-log4j1-demo)
 -   [Log4j 2.x](./modules/log4j2.md) >> [demo](./modules/demo/vicrab-log4j-demo)
-
 -   [Logback](./modules/logback.md) >> [demo](./modules/demo/vicrab-logback-demo)
 
 ## Configuration 
