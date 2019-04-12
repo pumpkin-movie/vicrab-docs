@@ -1,4 +1,4 @@
-package com.utilog.test.log4j1test;
+package com.utilog.test.utilogtest;
 
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;
