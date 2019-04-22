@@ -25,7 +25,7 @@ implementation 'com.vicrab:vicrab-android:1.1'
 
 // this dependency is not required if you are already using your own
 // slf4j implementation
-compile 'org.slf4j:slf4j-nop:1.7.25'
+<!--compile 'org.slf4j:slf4j-nop:1.7.25'-->
 ```
 
 For other dependency managers see the [central Maven repository](https://search.maven.org/#artifactdetails%7Ccom.vicrab%7Cvicrab-android%7C1.1%7Cjar).
