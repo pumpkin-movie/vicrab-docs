@@ -47,7 +47,7 @@ Via a System Environment Variable _(not available on Android)_:
 VICRAB_DSN=https://private_key@host:port/1 java -jar app.jar
 ```
 
-In code:
+Or in code:
 
 ```java
 import com.vicrab.Vicrab;
