@@ -60,6 +60,4 @@ Vicrab.init("https://private_key@host:port/1");
 
 There are multiple ways to configure the Java SDK, but all of them take the same options. 
 
-## Resources
 
--   [Examples](https://github.com/vicrab/vicrab-example)
