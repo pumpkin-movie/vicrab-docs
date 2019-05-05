@@ -18,6 +18,16 @@ Using Maven:
 </dependency>
 ```
 
+If your project uses the spring boot framework, you need to introduce another jar package：
+
+```xml
+<dependency>
+  <groupId>com.vicrab</groupId>
+  <artifactId>vicrab-spring-boot-starter</artifactId>
+  <version>1.2</version>
+</dependency>
+```
+
 Using Gradle:
 
 ```groovy
