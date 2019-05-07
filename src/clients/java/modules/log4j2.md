@@ -18,7 +18,7 @@ Using Maven:
 </dependency>
 ```
 
-If your project uses the spring boot framework, you need to introduce another jar package，Otherwise, there is no need to introduce it：
+If your project uses the spring boot framework, you need to introduce another jar package based on the previous one.
 
 ```xml
 <dependency>
