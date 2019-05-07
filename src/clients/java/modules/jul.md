@@ -18,6 +18,7 @@ Using Maven:
 
 If your project uses the spring boot framework, you need to introduce another jar package，Otherwise, there is no need to introduce it：
 
+
 ```xml
 <dependency>
   <groupId>com.vicrab</groupId>

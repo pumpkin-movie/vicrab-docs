@@ -20,6 +20,7 @@ Using Maven:
 
 If your project uses the spring boot framework, you need to introduce another jar package：
 
+
 ```xml
 <dependency>
   <groupId>com.vicrab</groupId>
