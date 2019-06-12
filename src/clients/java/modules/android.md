@@ -22,10 +22,6 @@ Using Gradle (Android Studio) in your `app/build.gradle` add:
 implementation 'com.vicrab:vicrab-all:1.1'
 implementation 'com.vicrab:vicrab:1.1'
 implementation 'com.vicrab:vicrab-android:1.1'
-
-// this dependency is not required if you are already using your own
-// slf4j implementation
-<!--compile 'org.slf4j:slf4j-nop:1.7.25'-->
 ```
 
 For other dependency managers see the [central Maven repository](https://search.maven.org/#artifactdetails%7Ccom.vicrab%7Cvicrab-android%7C1.1%7Cjar).
@@ -67,21 +63,7 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
         
-        // Alternatively, if you configured your DSN in a `vicrab.properties`
-        // file (see the configuration documentation).
-        try {
-            Vicrab.init(new AndroidVicrabClientFactory(ctx));
-        } catch (NoSuchMethodError e) {
-            e.printStackTrace();
-        } catch (IncompatibleClassChangeError error){
-            error.printStackTrace();
-        }catch(NoClassDefFoundError error) {
-            error.printStackTrace();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-	
-	
+        
         //Example of calling a unit test method
         new MyClass().logWithStaticAPI();
     }
