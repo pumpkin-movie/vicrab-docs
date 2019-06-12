@@ -19,9 +19,12 @@ The `AndroidEventBuilderHelper` is enabled by default, which will automatically 
 Using Gradle (Android Studio) in your `app/build.gradle` add:
 
 ```groovy
+
 implementation 'com.vicrab:vicrab-all:1.1'
 implementation 'com.vicrab:vicrab:1.1'
 implementation 'com.vicrab:vicrab-android:1.1'
+
+//dependency
 ```
 
 For other dependency managers see the [central Maven repository](https://search.maven.org/#artifactdetails%7Ccom.vicrab%7Cvicrab-android%7C1.1%7Cjar).
