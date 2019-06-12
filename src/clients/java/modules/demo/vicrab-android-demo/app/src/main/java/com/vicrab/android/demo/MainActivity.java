@@ -3,6 +3,7 @@ package com.vicrab.android.demo;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.vicrab.Vicrab;
 import com.vicrab.android.AndroidVicrabClientFactory;
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Context ctx = this.getApplicationContext();
 
         // Use the Vicrab DSN (client key) from the Project Settings page on Vicrab
-        String vicrabDsn = "https://ebc5fccb45d0cde5de73a6fee84285be@a.vicrab.com/36794";
+        String vicrabDsn = "https://8b7824b0e1084ffb1a738f2f026047c8@a.vicrab.com/77083";
         try {
             Vicrab.init(vicrabDsn, new AndroidVicrabClientFactory(ctx));
         } catch (NoSuchMethodError e) {
