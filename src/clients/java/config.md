@@ -128,7 +128,7 @@ environment=staging
 To set the server name that will be sent with each event, use the `servername` option:
 
 ```
-servername=host1
+server_name=host1
 ```
 
 ### Tags

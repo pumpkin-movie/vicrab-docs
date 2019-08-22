@@ -15,6 +15,6 @@ Welcome to the Vicrab documentation.  Vicrab is an open-source error tracking to
 To get you started, you might find some of these links relevant:
 
 -   New to Vicrab? Have a look at the [_Getting Started_].
--   No account yet? You can sign up for one at [vicrab.com](https://www.vicrab.com/signup/).
+-   No account yet? You can sign up for one at [vicrab.com](https://www.vicrab.com/login/).
 -   Stuck? Feel free to contact [_Support_].
 -   Installing the Vicrab server yourself? See [_Installation_].
