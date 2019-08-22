@@ -22,7 +22,7 @@ Start using Vicrab in the following four steps, in order.
 
 Getting started with Vicrab is a three step process:
 
-1.  [Register SaaS account](https://www.vicrab.com/signup/)
+1.  [Register SaaS account](https://www.vicrab.com/login/)
 
 2.  Create a new organization
 
