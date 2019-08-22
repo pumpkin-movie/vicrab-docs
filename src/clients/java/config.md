@@ -4,7 +4,7 @@ Configuration
 
 **Note:** Vicrab’s library and framework integration documentation explains how to to do the initial Vicrab configuration for each of the supported integrations. The configuration below can be used in combination with any of the integrations _once you set Vicrab up with the integration_. Please check [the integration documentation]({%- link _documentation/clients/java/modules/index.md -%}#integrations) before you attempt to do any advanced configuration.
 
-## Setting the DSN (Data Source Name) {#setting-the-dsn}
+## Setting the DSN (Data Source Name) 
 
 The DSN is the first and most important thing to configure because it tells the SDK where to send events. You can find your project’s DSN in the “Client Keys” section of your “Project Settings” in Vicrab. It can be configured in multiple ways. Explanations of the [configuration methods are detailed below](#configuration-methods).
 
@@ -40,7 +40,7 @@ There are multiple ways to configure the Java SDK, but all of them take the same
 
 ### Configuration via properties file
 
-The Java SDK can be configured via a [.properties file](https://en.wikipedia.org/wiki/.properties) that is located on the filesystem or in your application’s classpath. By default the SDK will look for a `vicrab.properties` file in the application’s current working directory or in the root of your classpath. In most server side applications the default directory to add resources to your classpath is `src/main/resources/`, and on Android the default is `app/src/main/resources/`. You can override the location of the properties file by using either the `vicrab.properties.file` Java System Property or the `VICRAB_PROPERTIES_FILE` System Environment Variable.
+The Java SDK can be configured that is located on the filesystem or in your application’s classpath. By default the SDK will look for a `vicrab.properties` file in the application’s current working directory or in the root of your classpath. In most server side applications the default directory to add resources to your classpath is `src/main/resources/`, and on Android the default is `app/src/main/resources/`. You can override the location of the properties file by using either the `vicrab.properties.file` Java System Property or the `VICRAB_PROPERTIES_FILE` System Environment Variable.
 
 Because this file is often bundled with your application, the values cannot be changed easily once your application has been packaged. For this reason, the properties file is useful for setting defaults or options that you don’t expect to change often. The properties file is the last place checked for each option value, so runtime configuration (described below) will override it if available.
 
