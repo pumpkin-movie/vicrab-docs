@@ -36,19 +36,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-<<<<<<< HEAD
-=======
-		
->>>>>>> 3100e45e2e7f311e5dff9028818985653c972885
+
 		<dependency>
 			<groupId>com.vicrab</groupId>
 			<artifactId>vicrab-spring-boot-starter</artifactId>
 			<version>1.2</version>
 		</dependency>
-<<<<<<< HEAD
-=======
-		
->>>>>>> 3100e45e2e7f311e5dff9028818985653c972885
+
+
 		<dependency>
 			<groupId>com.vicrab</groupId>
 			<artifactId>vicrab-logback</artifactId>
